@@ -17,6 +17,7 @@ body {
     background: #fff;
     border-radius: 5px;
     position: relative;
+    overflow: hidden;
 }
 
 h3 {
@@ -30,6 +31,7 @@ h3 {
     position: absolute;
     top: 100px;
     left: 40px;
+    transition: 0.5s;
 }
 
 form input {
@@ -56,10 +58,57 @@ form button {
     width: 110px;
     height: 35px;
     margin: 0 10px;
-    background: linear-gradient(to right, #ff105f, #ffad06);
+    background: linear-gradient(to right, #3e7721, #023a6e);
     border-radius: 30px;
     border: 0;
     outline: none;
     color: #fff;
     cursor: pointer;
+}
+
+#Form2 {
+    left: 450px;
+}
+
+#Form3 {
+    left: 450px;
+}
+
+.step-row {
+    width: 360px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 -1px 5px -1px #000;
+    position: relative;
+}
+
+.step-col {
+    width: 120px;
+    text-align: center;
+    color: #faf5f5;
+    position: relative;
+    font-weight: 800;
+    font-size: 26px;
+}
+
+#progress {
+    position: absolute;
+    height: 100%;
+    width: 120px;
+    background: linear-gradient(to right, #3e7721, #023a6e);
+    transition: 1s;
+}
+
+#progress::after {
+    content: '';
+    height: 0;
+    width: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    border-left: 20px solid #2c2c2b;
 }
