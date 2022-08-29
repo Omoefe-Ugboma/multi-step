@@ -79,6 +79,10 @@ form button {
     left: 450px;
 }
 
+#Form5 {
+    left: 450px;
+}
+
 .step-row {
     width: 360px;
     height: 40px;
@@ -94,14 +98,14 @@ form button {
     text-align: center;
     color: #faf5f5;
     position: relative;
-    font-weight: 800;
-    font-size: 26px;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 #progress {
     position: absolute;
     height: 100%;
-    width: 70px;
+    width: 50px;
     background: linear-gradient(to right, #3e7721, #023a6e);
     transition: 1s;
 }
