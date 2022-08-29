@@ -10,7 +10,7 @@ body {
     background-size: cover;
 }
 
-.container {
+.form-container {
     width: 360px;
     height: 400px;
     margin: 8% auto;
@@ -26,7 +26,7 @@ h3 {
     color: #777;
 }
 
-.container form {
+.form-container form {
     width: 280px;
     position: absolute;
     top: 100px;
